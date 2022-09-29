@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+list-style-type: none;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+nav{
+    /* background: rgb(16, 16, 224); */
+background: dodgerblue;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+display: inline-block;
+line-height: 80px;
+margin: 0 50px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+a:hover{
+    background :darkblue;
+}
+
+
+
+label.logo{
+    color: white;
+    font-size: 35px;
+   line-height: 80px;
+   padding: 0 100px;
+   font-weight: bold;
+   font-family: cursive;
+   font-style: italic;
+}
+.bgimg{
+    height:50vh;
+    width: 100%;
+}
+.background{
+    position: relative;
+}
+.welcome{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 120px 200px 50px  420px;
+    color:pink;
+}
+.card-img{
+    width: 100%;
+}
+.card{
+    width: 400px;
+border: 1px solid lightgray;
+margin: 50px auto;
+border-radius: 12px;
+}
+.content{
+    display: flex;
+}
+.p-5{
+    padding: 12px;
+}
+.btn{
+    border:none;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+    background-color:wheat;
+    padding: 12px 12px;
+    text-decoration: none;
+    /* font-size: 18px; */
+}
+
+
+
+.user{
+   text-align: center;
+/* display: flex; */
+}
+.container{
+    width: 900px;
+        /* border: 10px solid lightgray; */
+        margin: 50px auto;
+        display: flex;
+        align-items: center;
+}
+.user-img{
+    width: 300px;
+}
+.sv{
+    width: 10%;
+}
+.foodcard{
+    width: 900px;
+    margin: 50px auto;
+    /* text-align: center; */
+    border: 6px solid lightgray;
+    padding: 20px;
+
+}
+.foodcard h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.btn a:hover{
+    background: none;
+}
